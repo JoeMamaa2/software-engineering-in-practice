@@ -1,3 +1,81 @@
-Git status pokazal pliki niestledzone (untracked).
-Git log pokazal historie dotychczasowych commitow w repozytorium.
-Nowy plik pojawia sie jako untracked, poniewaz Git nie monitoruje automatycznie nowo utworzonych plikow, dopoki nie zostana dodane.
+Git status pokazal 
+ "  
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+"
+
+Git log pokazal
+ "
+commit b3c03b9ff4e56b4f899140d94fcfab94164bbb5f (HEAD -> main, origin/main, origin/HEAD)
+Merge: 922c41e 24526e8
+Author: Michał Maj <47927347+michalmaj@users.noreply.github.com>
+Date:   Sat Oct 10 13:43:50 2026 +0200
+
+    Merge pull request #42 from michalmaj/quality/lab24-25-release-workflow
+    
+    Integrate Release 1.0.0 into Lab 24, reduce Lab 25 to one release cycle
+
+commit 24526e89f9b587b4e9fa245bfca36641e5713c13
+Author: Michał Maj <michalpmaj@gmail.com>
+...skipping...
+commit b3c03b9ff4e56b4f899140d94fcfab94164bbb5f (HEAD -> main, origin/main, origin/HEAD)
+Merge: 922c41e 24526e8
+Author: Michał Maj <47927347+michalmaj@users.noreply.github.com>
+Date:   Sat Oct 10 13:43:50 2026 +0200
+
+    Merge pull request #42 from michalmaj/quality/lab24-25-release-workflow
+    
+    Integrate Release 1.0.0 into Lab 24, reduce Lab 25 to one release cycle
+
+commit 24526e89f9b587b4e9fa245bfca36641e5713c13
+Author: Michał Maj <michalpmaj@gmail.com>
+Date:   Sat Oct 10 13:41:39 2026 +0200
+
+    docs: record Lab 24-25 release-workflow restructuring and its verdict
+    
+    Resolves the open MAJOR from the prior release-readiness report: Lab
+    25's two-release-cycle load. Records the before/after change, real
+...skipping...
+    
+    Integrate Release 1.0.0 into Lab 24, reduce Lab 25 to one release cycle
+
+commit 24526e89f9b587b4e9fa245bfca36641e5713c13
+Author: Michał Maj <michalpmaj@gmail.com>
+Date:   Sat Oct 10 13:41:39 2026 +0200
+
+    docs: record Lab 24-25 release-workflow restructuring and its verdict
+    
+    Resolves the open MAJOR from the prior release-readiness report: Lab
+    25's two-release-cycle load. Records the before/after change, real
+...skipping...
+    
+    Integrate Release 1.0.0 into Lab 24, reduce Lab 25 to one release cycle
+
+commit 24526e89f9b587b4e9fa245bfca36641e5713c13
+Author: Michał Maj <michalpmaj@gmail.com>
+Date:   Sat Oct 10 13:41:39 2026 +0200
+
+    docs: record Lab 24-25 release-workflow restructuring and its verdict
+    
+    Resolves the open MAJOR from the prior release-readiness report: Lab
+    25's two-release-cycle load. Records the before/after change, real
+...skipping...
+    
+    Integrate Release 1.0.0 into Lab 24, reduce Lab 25 to one release cycle
+
+commit 24526e89f9b587b4e9fa245bfca36641e5713c13
+Author: Michał Maj <michalpmaj@gmail.com>
+Date:   Sat Oct 10 13:41:39 2026 +0200
+
+    docs: record Lab 24-25 release-workflow restructuring and its verdict
+    
+    Resolves the open MAJOR from the prior release-readiness report: Lab
+    25's two-release-cycle load. Records the before/after change, real
+"
+
+3.
+Git status pokazal pliki niestledzone (untracked)
+Nowy plik pojawia sie jako untracked, poniewaz Git nie monitoruje automatycznie nowo utworzonych plikow, dopoki nie zostana dodane." >> labs/03-inherited-repository/notes/my-observations.txt
