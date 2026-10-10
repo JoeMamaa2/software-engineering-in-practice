@@ -1,1 +1,2 @@
 Origin to domyślna nazwa zdalnego repozytorium, z którego sklonowano projekt.
+Origin wskazuje na zdalne repozytorium GitHub (JoeMamaa2/software-engineering-in-practice) używane do pobierania (fetch) i wysyłania (push) zmian.
