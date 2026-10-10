@@ -1,0 +1,3 @@
+Git status pokazal pliki niestledzone (untracked).
+Git log pokazal historie dotychczasowych commitow w repozytorium.
+Nowy plik pojawia sie jako untracked, poniewaz Git nie monitoruje automatycznie nowo utworzonych plikow, dopoki nie zostana dodane.
